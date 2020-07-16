@@ -8,12 +8,15 @@
     "Steve Ellis <steve@smartcontract.com>"
   ],
   "devDependencies": {
+    "@harmony-js/core": "^0.1.48",
     "bignumber.js": "^2.0.0",
-    "ganache-cli": "^6.4.1",
+    "ganache-cli": "^6.9.1",
     "moment": "^2.15.2",
-    "solc": "^0.4.11",
-    "truffle": "^4.1.15",
-    "web3": "^1.0.0-beta.55"
+    "solc": "^0.6.11",
+    "truffle": "^4.1.12",
+    "web3": "^1.0.0-beta.55",
+    "dotenv": "^8.1.0",
+    "tslib": "^1.10.0"
   },
   "files": [
     "README.md",
@@ -23,5 +26,6 @@
     "migrate-ganache": "truffle migrate --network ganache",
     "test": "truffle test",
     "test-ganache": "truffle test --network ganache"
-  }
+  },
+  "dependencies": {}
 }
